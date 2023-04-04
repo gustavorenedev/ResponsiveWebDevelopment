@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: normal;
+}
+
+.button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.title {
+    line-height: 1.2; /* distancia entre a linha de cima com a linha de baixo */
+    letter-spacing: -1px; /* espaçamento entre as letras */
+    color: #AEBDC9;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #1d99ff;
+}
