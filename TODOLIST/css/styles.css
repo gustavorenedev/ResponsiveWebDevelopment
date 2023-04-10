@@ -4,39 +4,9 @@
     padding: 0;
 }
 
-:root {
-    /* 2 traços e vem o que a variavel é depois vem a funcionalidade dela */
-    --color-brand-primary: #1D99FF;
-    --color-brand-secondary: #FF455B;
-    
-    --color-feedback-error: #F1526E;
-    --color-feedback-info: #3DA4F3;
-    --color-feedback-success: #00C689;
-    --color-feedback-warning: #FDBF35;
-
-    --color-text-dark:#708AA1;
-    --color-text-light: #AEBDC9;
-
-    --color-interface-light: #F1F4F6;
-    --color-interface-dark: #D5E0EC;
-
-    --color-common-light: #FFFFFF;
-    --color-common-dark: #000000;
-
-    /* Spacing */
-
-    --spacing-xsmall: 4px;
-    --spacing-small: 8px;
-    --spacing-default: 16px;
-    --spacing-medium: 24px;
-    --spacing-large: 32px;
-    --spacing-xlarge: 40px;
-}
-
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background-color: var(--color-interface-dark);
 }
 
 h1,
@@ -48,16 +18,6 @@ h6{
     font-weight: normal;
 }
 
-header {
-    padding-top: var(--spacing-medium);
-    padding-bottom: var(--spacing-medium);
-}
-
-.header-item {
-    display: flex;
-    justify-content: space-between;
-}
-
 .button {
     border: 0;
     background-color: transparent;
@@ -67,39 +27,10 @@ header {
 .title {
     line-height: 1.2; /* distancia entre a linha de cima com a linha de baixo */
     letter-spacing: -1px; /* espaçamento entre as letras */
-    color: var(--color-text-light);
+    color: #AEBDC9;
 }
 
 .subtitle {
     font-weight: 600;
-    color: var(--color-brand-primary);
-}
-
-.container{
-    /* utilizando 94% de largura e com o margin e left auto, sobram 3% para cada lado fazendo o padding */
-    width: 94%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.avatar {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-}
-
-.form-task {
-    margin-top: var(--spacing-large);
-}
-
-.form-task-label {
-
-}
-
-.form-task-input {
-
-}
-
-.form-task-button {
-    
+    color: #1d99ff;
 }
